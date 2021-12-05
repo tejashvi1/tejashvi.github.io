@@ -1,191 +1,818 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
-    <title>Tejashvi Patel</title>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="">
-    <meta name="author" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <link rel="stylesheet" href="css/kube.min.css" />
-    <link rel="stylesheet" href="css/font-awesome.min.css" />
-    <link rel="stylesheet" href="css/custom.min.css" />
-	<link href='https://fonts.googleapis.com/css?family=Playfair+Display+SC:700' rel='stylesheet' type='text/css'>
-	<link href='https://fonts.googleapis.com/css?family=Lato:400,700' rel='stylesheet' type='text/css'>
-	<style>
-		.intro h1:before {
-			/* Edit this with your name or anything else */
-			content: 'Tejashvi';
-		}
-	</style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Reedham Patel">
+    <meta name="description" content="None">
+
+    <title>Reedham Patel Portfolio</title>
+    <link href="img/Favicon_Logo.png" rel="shortcut icon" type="image/png" />
+
+    <!-- Google Font -->
+    <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;600;700;900&display=swap" rel="stylesheet">
+
+    <!-- Stylesheets -->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/fancybox.min.css">
+    <link rel="stylesheet" href="css/style.css">
+
 </head>
+
 <body>
-	<!-- Navigation -->
-	<div class="main-nav">
-		<div class="container">
-			<header class="group top-nav">
-				<div class="navigation-toggle" data-tools="navigation-toggle" data-target="#navbar-1">
-				    <span class="logo">Tejashvi</span>
-				</div>
-			    <nav id="navbar-1" class="navbar item-nav">
-				    <ul>
-				        <li class="active"><a href="#about">About</a></li>
-				        <li><a href="#experiences">Experiences</a></li>
-				        <li><a href="#achievements">Projects</a></li>
-				        <li><a href="#skills">Skills</a></li>
-				        <li><a href="#education">Education</a></li>
-				    </ul>
-				</nav>
-			</header>
-		</div>
-	</div>
+    <div class="row no-gutters">
+        <div class="col-md-3 col-lg-2 sidebar">
+            <div class="sidebar-box p-3 p-md-4">
 
-	<!-- Introduction -->
-	<div class="intro section" id="about">
-		<div class="container">
-			<p>Hi, I’m Tejashvi the Tester</p>
-			<div class="units-row units-split wrap">
-				<div class="unit-20">
-					<img src="img/ava.jpg" alt="Avatar">
-				</div>
-				<div class="unit-80">
-					<h1>I live in<br><span id="typed"></span></h1>
-				</div>
-				<p>
-					
-				</p>
-			</div>
-		</div>
-	</div>
+                <div class="logo">
+                    <a href="index.html" class="site-logo">
+                        <h4 class="text-light">Reedham Patel</h4>
+                    </a>
+                    <h6>Game Developer/ Game AI Programmer</h6>
+                </div>
 
-	<div class="work section second" id="experiences">
-		<div class="container">
-			<h1>Experiences</h1>
-		
-			<ul class="work-list">
-				<li>December 2018 - November 2019</li>
-				<li><a href="#">Immigration Times</a></li>
-				<li>It Help Desk Support</li>
-				<p>
-					<ul>
-						•	Primary role is to do task in competitive environment and achieve results in limited timespan.
-					</ul>
-						<ul>
+                <div class="nav-switch">
+                    <i class="fa fa-bars"></i>
+                </div>
 
-•	Handle their website for small bugs and resolved them.</ul>	<ul>
-•	Repair damaged hardware.</ul>	<ul>
-•	Install and update their software as well as hardware</ul>	<ul>
-•	Create and manage server in local environment and handle their user account.<ul>
-</ul>
-				</p>
-			</ul>
-			
-			
-		</div>
-	</div>
+                <ul class="main-menu mt-md-5">
+                    <!-- <li><a href="index.html">Home</a></li> -->
+                    <li><a href="#about">About me</a></li>
+                    <li><a href="#skills">Skills</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#info">Curriculum Vitae (CV)</a></li>
+                    <li><a href="#resources">Resources</a></li>
+                    <li><a href="#contact">Contact me</a></li>
+                </ul>
+
+                <div class="social mt-md-5">
+                    <ul class="social-menu list-inline">
+                        <li class="list-inline-item">
+                            <a href="https://www.facebook.com/reedham.007" target="_blank" title="facebook"> <i class="fab fa-facebook"></i> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/reedham-patel/" target="_blank" title="linkedin"> <i class="fab fa-linkedin"></i> </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/ReedhamHackerman" target="_blank" title="github"> <i class="fab fa-github"></i> </a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="copyrightxxx d-none d-md-block mt-md-5">
+                    <small><a href="reedham1111997@gmail.com"><i class="fa fa-envelope"></i> reedham1111997@gmail.com</a></small> <br>
+                    <small class="text-muted">No Copyrights &copy;<br> Handcrafted by Reedham Patel</small>
+                </div>
+
+            </div>
+        </div>
+        <div class="col-md-9 col-lg-10 content ml-auto">
+
+            <!-- Hero section -->
+            <section id="hero" class="hero-section bg-dark">
+                <div id="carouselHero" class="carousel slide carousel-fade" data-ride="carousel" data-interval="3000" data-pause='false'>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="img/slide1.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/slide2.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Slide3.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Slide4.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Slide5.jpg" class="d-block w-100" alt="">
+                        </div>
+                        <div class="carousel-item">
+                            <img src="img/Slider6.jpg" class="d-block w-100" alt="">
+                        </div>
+
+                    </div>
+                    <div class="carousel-overlay">
+                        <div class="container">
+                            <div class="row pt-5">
+                                <div class="col-md-7">
+                                    <div class="text-white py-md-5 mt-xl-3">
+                                        <h1>Reedham Patel</h1>
+                                        <h5>GAME DEVELOPER</h5>
+                                        <p class="lead pt-5"><b>Extremely efficient Game Programmer seeking a <br>
+                                          position in which my creative skills and 
+                                           programming<br> knowledge can be used as an asset to the company.<b></p>
+                                        <a target="_blank" href="#info" class="btn btn-primary"> <i class="fa fa-file-pdf"></i> Resume </a>
+                                    </div>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                 </div>
+            </section>
+      
+
+         
+   
+            <!-- Banner section -->
+            <section id="about" class="bg-dark  py-5">
+                <div class="container" >
+                    <div class="row">
+                        <div class="col-md-9 text-white  pr-md-5">
+                        <h2 class="mb-4">About me</h2>
+                           <h5> 
+                            <p class="mt-lg-2" style="line-height: 1.5; word-spacing: 1.8px; letter-spacing: 1.3px; text-align: justify; text-justify: auto;">Game developer with enhanced knowledge of various programming languages like C#, C++, Java and
+                                 had a great experience in 2D and 3D game development (Unity Engine & Unreal Engine). 
+                                 Proficient in various platforms, Languages, Algorithms, Architecture, and making tools for game engines. 
+                                 Experienced with the latest cutting-edge development tools and procedures. 
+                                 Able to self-manage during independent projects, as well as collaborate as part of a productive team.
+                            </p>
+                        </h5>
+                        </div>
+                        <div class="col-md-3 text-md-right">
+                            <img class="round-img" src="img/round3.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Services section -->
+            <section id="skills" class="services-section bg-light py-5">
+                <div class="container">
+                    <h2 class="mb-4">My Skills</h2>
+                    <div class="row skills-box">
+
+                        <div class="col-lg-4 col-md-6 mb-4 pr-md-4">
+                            <div class="icon my-3">
+                                <i class="fa fa-users fa-3x"></i>
+                            </div>
+                            <div class="service-content">
+                                <h4>Good Team Player</h4>
+                                <p class="mb-4" style="text-align: justify; color: #4d4d4d;">Highly adaptable, flexible professional who embraces teamwork, but also enjoys working independently.</p>
+                               <br>
+                               <br>
+                               <br>
+                                <h6>Programming Languages</h6>
+                                <p>C#, C++, Java, GLSL (Shaders),<br>Python, CG(HLSL)</p>
+                               
+                                <h6>Concepts</h6>
+                                 <p> Multi-threading, Reflection, PropertyGroups, MethodGroups, Lambda/Anonymous/Delegate, Params, Attributes. </p>
+                                 <h6>IDE </h6>
+                                <p>Visual Studio, Eclipse, Notepad++,<br>
+                                   Visual Studio Code,Intellij Idea, Pycharm</p>
+                                <h6>Management</h6>
+                                <p>Git, GitHub, Jira, Trello</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mb-4 pr-md-4">
+                            <div class="icon my-3">
+                                <i class="fa fa-laptop-code fa-3x"></i>
+                            </div>
+                            <div class="service-content">
+                                <h4>I'm an adept programmer and love learning</h4>
+                                <p class="mb-4" style="text-align: justify; color: #4d4d4d;">I am very fast learner and gaming is my passion.
+                                    I always look forward to learn new technologies and tools in game development field.</p>
+                                <br>
+                                <h6>Design Patterns </h6>
+                                <p>Top Down Architecture, Factory Pattern, Singleton,
+                                    Object Pooling Factory Pattern 
+                                    State Machine, observer </p>
+                                <h6>Game AI</h6>
+                                <p>Genetic, Flocking AI, State Machine, A*, GOAP, Binary Tree</p>
+                                <h6>Database </h6>
+                                <p>MS SQL Server workbench, SQL Server, JSON, XML, Binary</p>
+                                <h6>Serilization </h6>
+                                <p>XML, JSON, Binary, Text</p>
+                                <h6>Other Software's </h6>
+                                <p>Adobe Photoshop, Microsoft Office, Microsoft Visio</p>
+                            </div>
+                        </div>
+
+                        <div class="col-lg-4 col-md-6 mb-4 pr-md-4">
+                            <div class="icon my-3">
+                                <i class="fa fa-gamepad fa-3x"></i>
+                            </div>
+                            <div class="service-content">
+                                <h4>Empathic listener and Persuasive speaker</h4>
+                                <p class="mb-4" style="text-align: justify; color: #4d4d4d;">I am good listener and 
+                                    i tend to belive detail-oriented listening is the key to understand someone's way of approaching different problems.</p>
+                                <br>
+                                <h6>Game engines</h6>
+                                <p>Unity Engine, Unreal Engine</p>
+                                <h6>Unity Engine</h6>
+                                <p> Editor Scripting, Editor Variables/Menus, UI, Unity Physics system, Animations, Sound, Particle Systems, Controller Support, NavMesh, Profiler, Shader Development,
+                                    Shader Graph, 
+                                    Image/Tile Filling, Materials and Lighting, Shader Development, Rewired Input System,
+                                    Unity New Input System, Local Multiplayer Support, Lambert Lighting, PBR(Physically-Based Rendering)</p>
+                                   <h6> Unreal Engine</h6> 
+                                   <p>
+                                   Online Multiplayer Support, Material Creation(Intermediate), UI, Blueprint, Animations, Sound, Particle System, Lighting, Replication.
+                                   </p>
+                               
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+           
+
+            <!-- About section -->
+            <section id="projects" class="about-section bg-dark py-5">
+                <div class="container">
+                    <div class="row mb-4">
+                        <div class="col-md-9 pr-md-5 text-white">
+                            <h2 class="mb-4">Projects & Work </h2>
+                            <p style="letter-spacing: 1px; font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; text-align: justify;">A view of the games that I've worked on over the years. Developed 2D Games, 3D Games using Unity and Unreal engine. Also Implemneted 
+                                Top down Architecture with use of Singleton Manager Classes To ease the access of Variable communication between different Classes.
+                                Moreover,I Crafted Various AI Like GOAP AI(Advance AI), Flocking AI ,Genetic AI ,State Machine AI With totally dynamic and Scalable Structure.
+                                Furthermore, I Posses the Higher knowledge of Material and Shader development, To demonstrate Those Skills , I emplemented Advance Physically-Based rendering Material
+                                , Holographic Material, Bump And Normal Material, And Some Advance Partical Material in Unity and Unreal engine.
+                                Additionally,I Implemneted basic editor tools that extends the functionality of Unity engine.</p>
+                            <h6>PROJECTS INVENTORY</h6>
+                            <a href="project-inventory-Reedham-Patel.xlsx" target="_blank" class="btn btn-dark"> <i class="fa fa-download"></i> Projects Inventory </a>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="round-img" src="img/round3.png" alt="">
+                        </div>
+                    </div>
+                    <!-- PROJECTS AREA -->
+                    <div class="row mb-4">
+                           
 
 
-	<!-- Award & Achievements -->
-	<div class="award section second" id="achievements">
-		<div class="container">
-			<h1>Projects</h1>
-			<ul class="award-list list-flat">
-				<li><a href="#"><b>Fineglass</b></a></li>
-				<li><p style="text-align: justify;">Fineglasses is a ecommerce platform developed for online shop for glasses categorized for men and women.This is a demo project which can motivates user in Canada to purchase polarized,transparent or sunglasses.</p></li>
-			</ul>
-			<ul class="award-list list-flat">
-				<li><a href="#"><b>GamingSpot</b></a></li>
-				<li><p style="text-align: justify;">This is ecommerce site which help people to buy games online for platform such as Ps4,Xbox,Ps5. In here I use Php and MySQL. Here main feature is user can keep 
-records of purchase in separate page and check stocks of product . search products and filter them by price and name. Moreover, Also integrated external payment api such as Stripe.
-</p></li>
-			</ul>
-			<ul class="award-list list-flat">
-				<li><a href="#"><b>Suspicious Activity Detection</b><a></li>
-				<li><p style="text-align: justify;">Final year project at my bachelor’s degree for suspicious behaviour in atm hall using python tools like OpenCV.</p></li>
-			</ul>
-		</div>
-	</div>
 
-	<!-- Technical Skills -->
-	<div class="skills section second" id="skills">
-		<div class="container">
-			<h1>Technical<br>Skills</h1>
-			<ul class="skill-list list-flat">
-				<li>Web Technology</li>
-				<li>HTML / CSS / PHP / Javascript</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Database</li>
-				<li>MySQL / MongoDB </li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Platforms</li>
-				<li>Linux (Parrot, Ubuntu, Cent Os), Windows 10/7</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Tools</li>
-				<li>Selenium, Jira, Eclipse, Visual Studio Code IntelliJ, PhpStorm, Slack, Virtual Machine, Xampp , Stripe </li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Networking</li>
-				<li>SSH, NFS , Samba Server</li>
-			</ul>
-			<ul class="skill-list list-flat">
-				<li>Also Explored :</li>
-				<li>Active Directory, Troubleshooting. Scrum Methodology, Group Policy Management,  Windows Server 2019, Github For Desktop</li>
-			</ul>
-		</div>
-	</div>
+                        <!-- <Arrow maniac>         </Arrow> -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">1</h6>
+                                            <h4> Arrow Maniac </h4>
+                                            <h6> 2D Platformer, Local Multiplayer, Action</h6>
+                                            <p>Arrow Maniac is a 2D-platformer couch co-op local multiplayer game with a fast-paced environment. 
+                                                Where up to two player can connect their controller in the same system in order to play the game. 
+                                                Also Game Used To follow Top-down singleton architecture with Highly scalability .</p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/Arrow-maniac" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo1">
+                                                <img class="cover-img" src="img\GameThumbnails\ArrowManiacLogo.png" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo1" controls preload="none" width="720" height="480" style="display:none;">
+                                            <source src="videos/ArrowManiac15MinGamePlay.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
 
 
-		<!-- Work Experience -->
-	<div class="work section second" id="education">
-		<div class="container">
-			<h1>Education</h1>
-			<ul class="work-list">
-				<li>January 2020 - October 2021</li>
-				<li><a href="#">Software Testing Techniques, Attestation of College Studies</a></li>
-				<li>Cégep de la Gaspésie et des Île’s - Montreal, Canada</li>
-			</ul>
-			<ul class="work-list">
-				<li>September 2015 - June 2019</li>
-				<li><a href="#">Information and Technology, Bachelor’s Degree 	</a></li>
-				<li>Gujarat Technological University - Gujarat, India</li>
-			</ul>
-			
-			
-		</div>
-	</div>
 
 
-	
-	<footer>
-		<div class="container">
-			<div class="units-row">
-			    <div class="unit-50">
-			    </div>
-			    <div class="unit-50">
-					<ul class="social list-flat right">
-						<li><a href="https://github.com/tejashvi1"><i class="fa fa-linkedin fa-2x"></i></a></li>
-						<li><a href="https://www.linkedin.com/in/tejashvi-patel-417245183/"><i class="fa fa-github fa-2x"></i></a></li>
-						
-					</ul>
-			    </div>
-			</div>
-		</div>
-	</footer>
 
-	<!-- Javascript -->
-	<script src="js/jquery.min.js"></script>
-	<script src="js/typed.min.js"></script>
-    <script src="js/kube.min.js"></script>
-    <script src="js/site.js"></script>
-    <script>
-		function newTyped(){}$(function(){$("#typed").typed({
-		// Change to edit type effect
-		strings: ["Montreal", "Quebec", "Canada"],
 
-		typeSpeed:90,backDelay:700,contentType:"html",loop:!0,resetCallback:function(){newTyped()}}),$(".reset").click(function(){$("#typed").typed("reset")})});
-    </script>
+
+                        <!-- <Cyber Redumption></Cyber> -->
+                        <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">2</h6>
+                                            <h4> Cyber Redumption</h4>
+                                            <h6> C++, Replication, Blueprint </h6>
+                                            <p>Cyber redemption is online multiplayer Game build with the support of C++ Programming in the Unreal Engine and With Highly Scalable Architecture.
+                                            </p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/Unreal-Multiplayer
+                                            " class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo2">
+                                                <img class="cover-img" src="videos/UnrealMultiPlayer.png" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo2" controls preload="none" width="720" height="480" style="display:none;">
+                                            <source src="videos/UnrealMultiPlayer.mp4" type="video/mp4">
+                                            Your browser doesn't support HTML5 video tag.
+                                            </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <UnrealADvanceShader Development></UnrealADvanceShader> -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">3</h6>
+                                            <h4> Unreal Shader Developemnt </h4>
+                                            <h6> C++,Blueprint(Advance)
+                                            </h6>
+                                            <p>AAA Standard shaders for the Snow with Different material Combination. Also  Created Different Shaders for Hologram Effect, Ultra realistic sea water material ,Blending between Different textures For landscape and Terrain Creation.
+                                            </p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/UnrealAdvanceShaderDevelopment
+                                            " class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo3">
+                                                <img class="cover-img" src="videos/ShaderMovement.png" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo3" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/Shaders.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <ShaderDevlopmentUsing CG></ShaderDevlopmentUsing> -->
+                        <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">4</h6>
+                                            <h4> Shader Development Unity  </h4>
+                                            <h6> CG(HLSL)</h6>
+                                            <p> Using pixel and lighting manipulation created different kind of material like Normal And Bump Material, Holographic material, Water Shaders,Decal Texture , PBR Material and Outline Material </p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/ShaderDevelopment
+                                            " class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo4">
+                                                <img class="cover-img" src="videos/HlslMovement.png" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo4" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/CG(HLSL).mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <GoapAI></GoapAI> -->
+                        <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">5</h6>
+                                            <h4> Hospital Simulation</h4>
+                                            <h6>GoapAI, C#(Advance), A*</h6>
+                                            <p>"Simulation-based on Goal-oriented action planning (Smart AI), GOAP is an artificial intelligence system for agents that allows them to plan a sequence of actions to satisfy a particular goal.
+                                                AI Or NPC Will Plan Their Own Plan And Follow The Action Sequence For It.
+                                                Custom Editor tool That Will Indicate Their Current Action and Their Future actions.
+                                                NPC can have certain beliefs or Sub goals and based on that NPC change their plan its totally dynamic AI rather than following hard structured  state machine-based AI
+                                                 All agents Follow the A* pathfinding algorithm to reach the destination.  
+                                                "
+                                                </p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/Hospital-Simulation" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo5">
+                                                <img class="cover-img" src="videos/GoapAI.jpg" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo5" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/Hospital Simulation.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- <BlockBreaker></BlockBreaker> -->
+                        <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">6</h6>
+                                            <h4> Block-Breaker</h4>
+                                            <h6> C# ,Shader Lab</h6>
+                                            <p>Brick Breaker (platformer) is a Breakout clone ,which the player must smash a wall of bricks by deflecting a bouncing ball with a paddle. 
+                                                The paddle may move horizontally and is controlled with the BlackBerry's trackwheel, the computer's mouse or the touch of a finger (in the case of touchscreen). 
+                                                The player gets 1 lives to start with; a life is lost if the ball hits the bottom of the screen. 
+                                                However In this Game AI Was created that will play game on its own in "GOD MODE"
+                                            </p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/Block-Breaker
+                                            " class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo6">
+                                                <img class="cover-img" src="videos/BlockBreaker.jpg" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo6" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/Block Breaker.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <Flocking AI></Flocking> -->
+                        <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">7</h6>
+                                            <h4> Flocking AI </h4>
+                                            <h6> Unity3D(C#) </h6>
+                                            <p>Fish Flock is an easy-to-use asset that manage a shoal of fish.
+                                                The fishes move in flock and keep themselves as a group and also avoiding to collide with each other as they swim.
+                                                Also They Follow Predator and Prey relationship , So Big Fishes try to hunt down small fishes and flock of small fishes try to escape
+                                                them also its dependent on the prey's Food attraction factor.
+                                            </p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/Flocking-AI" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo7">
+                                                <img class="cover-img" src="videos/FlockingAI.jpg" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo7" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/FlockingAI.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <SpaceBomber></SpaceBomber> -->
+                        <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">8</h6>
+                                            <h4> Space Bomber </h4>
+                                            <h6>C#,Scriptable Objects, Unity3D </h6>
+                                            <p>Space Bomber is Top-down -3d-shooter game. IN the Game player has to survive waves of enemies and get the high score.
+                                                There was UI indication in top right that indicate the player score.
+                                                Also there were variety of bomb in the game which used to spawn after some time. 
+                                            </p>
+                                            <a target="_blank" href="https://github.com/isomorphica/ISI-J06-Project-Jeux2001A" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo8">
+                                                <img class="cover-img" src="videos/ComingSoon.jpg" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                <!-- <A Star Game></A> -->
+                 <!-- project -->
+                        <!-- <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">7</h6>
+                                            <h4> Spineless: A Blank Tale</h4>
+                                            <h6> Unity3D VR (C#)</h6>
+                                            <p>Virtual Reality Game made in Unity3d, where you are on a wheelchair and you shoot through enemies and kill the boss to win. It features a indoor level, ranged and melee enemies, one boss with 3 skills, stun
+                                                gun, sword and pick able items and power ups. </p>
+                                            <a target="_blank" href="https://github.com/mattstg/VRISIEN" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo7">
+                                                <img class="cover-img" src="videos/VRGame.jpg" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo7" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/VRGame.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div> -->
+
+                        <!-- <LastSoul></LastSoul> -->
+                          <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">9</h6>
+                                            <h4>Last Soul
+                                            </h4>
+                                            <h6>C#, Unity2D
+                                            </h6>
+                                            <p>Last Soul is 2d platformer game where Player has to reach top of the map in order to complete level while avoiding obstacles and gathering souls.
+                                            </p>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo9">
+                                                <img class="cover-img" src="videos/TheLastSoul.png" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo9" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/The Last Soul.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <GoupSoup></GoupSoup> -->
+                        <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">10</h6>
+                                            <h4> Goup Soup </h4>
+                                            <h6>C#, Top-Down Single Flow, Object pool </h6>
+                                            <p>Goup soup is a top-down 2D game , where player has to destroy zombies by throwing exact matching spell of their color on them.</p>
+                                            <a target="_blank" href="https://drive.google.com/file/d/1lmwEDM6He4DfOeXvEyWahK3UVPihAJEQ/view?usp=sharing" class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Drive</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo10">
+                                                <img class="cover-img" src="videos/GoupSoup.png" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo10" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/GoupSoupEdited.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!-- <SpaceX></SpaceX> -->
+                          <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">11</h6>
+                                            <h4> Space X</h4>
+                                            <h6> Unity3D(C#)</h6>
+                                            <p>SpaceX Is 3D Side view Game , Where end goal is reach to opposite site platform without touching any moving obstacle in the game.
+                                            </p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/SpaceX-Game-Unity
+                                            " class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo11">
+                                                <img class="cover-img" src="videos/RocketBooster.png" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo11" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/RocketBooster.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <!-- <BattleshipGameJava></BattleshipGameJava> -->
+                          <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">12</h6>
+                                            <h4> Battleship Game Java </h4>
+                                            <h6> Java, Java-Swing</h6>
+                                            <p>Battleship (also Battleships or Sea Battle[1]) is a strategy type guessing game for two players.
+                                                 It is played on ruled grids (paper or board) on which each player's fleet of ships (including battleships) are marked. 
+                                                 The locations of the fleets are concealed from the other player. 
+                                                 Players alternate turns calling "shots" at the other player's ships, and the objective of the game is to destroy the opposing player's fleet.
+                                            </p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/BattleShip-Game-Java
+                                            " class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo12">
+                                                <img class="cover-img" src="videos/BattleShipJava.png" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo12" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/BattleShipJava.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
+
+                        <!-- <Color Texture></Color> -->
+                        <!-- project -->
+                        <div class="col-lg-12 mb-4">
+                            <div class="card project-card h-100">
+                                <div class="row no-gutters h-100">
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h6 class="jesse-faden">13</h6>
+                                            <h4> Editor tools</h4>
+                                            <h6>Unity Editor Scripting, C#, Scriptable Assets, Generic Class Generation</h6>
+                                            <p> Color tool -Editor tool that help to color the texture and then later on that texture can be applied on different 3D objects.
+                                                Editor tool - Editor Tool that can be extended beyond creating a prefabs based on Number of factors.
+                                            </p>
+                                            <a target="_blank" href="https://github.com/ReedhamHackerman/Asset-Creation
+                                            " class="btn btn-primary"> <i class="fa fa-code-branch"></i> View on Github</a>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-4">
+                                        <div class="project-media h-100">
+                                            <a class="video-link h-100" data-fancybox href="#projectVideo13">
+                                                <img class="cover-img" src="videos/EditorTools.png" alt="">
+                                                <div class="overlay"><i class="far fa-play-circle"></i></div>
+                                            </a>
+                                            <video id="projectVideo13" controls preload="none" width="720" height="480" style="display:none;">
+                        <source src="videos/Editor Tools.mp4" type="video/mp4">
+                        Your browser doesn't support HTML5 video tag.
+                      </video>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                    </div>
+                </div>
+            </section>
+
+            <!-- Facts section -->
+            <section id="info" class="facts-section future-mode py-5" style="background: #1a1d22 url('img/section2.jpg'); background-size: cover;">
+                <div class="container py-5">
+                    <div class="future-title">
+                        <h2 class="text-white mb-4">Curriculum Vitae (CV)</h2>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6 mb-4">
+                            <div class="future-item h-100">
+                                <h4 class="mb-2"> Education </h4>
+                                <p>
+                                    <small><strong>2020-(Pursuing)</strong></small> <br> Video Game Programming, Attestation of College Studies <br>
+                                    <span class="text-muted">ISI, L'institut Supérieur d'Informatique  - Montreal, Canada</span> <br>
+                                </p>
+                                <p>
+                                    <small><strong>2015-2019</strong></small> <br> Information and Technology, Bachelors Degree <br>
+                                    <span class="text-muted">Gujarat Technical University -  Gujarat, India</span> <br>
+                                </p>
+                            </div>
+                        </div>
+
+                        <div class="col-md-6 mb-4">
+                            <div class="future-item h-100">
+                                <h4 class="mb-2"> Other Experiences </h4>
+                                <!-- <p>
+                                    <small><strong>April 2018 – November 2019</strong></small> <br>Maruti Game <br>
+                                    <span class="text-muted">Game Developer</span> <br>
+                                </p> -->
+                                <p>
+                                    <small><strong>May 2020 – November 2020</strong></small> <br> Walmart, Montreal, Quebec <br>
+                                    <span class="text-muted">Worked as Fulfillment agent </span> <br>
+                                </p>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Resources section -->
+            <section id="resources" class="about-section bg-white py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-9 pr-md-5">
+                            <h2 class="mb-4">Resources </h2>
+                            <p>A brief summary of my professional work experience in form of documents or online profiles. If you would like to see some more details on my source codes, check out my Github Repository. </p>
+                            <div class="row">
+                                <div class="col-lg-4">
+                                    <h6>GITHUB</h6>
+                                    <a href="https://github.com/ReedhamHackerman" target="_blank" class="btn btn-primary mb-3"> <i class="fab fa-github"></i> My Github Repository </a>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-3">
+                            <img class="round-img" src="img/round2.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <!-- Contact section -->
+            <section id="contact" class="contact-section bg-light py-5">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h2 class="mb-3">Contact me</h2>
+                            <p>Feel free to write me an email, i would love to hear your story. Use the details below to get in touch with me.</p>
+                            <div class="row">
+                                <div class="col-12">
+                                    <p>
+                                        <i class="fa fa-phone"></i> <strong> <a href="tel:+4383898335 ">(438) 389 8335</a> </strong> <br>
+                                        <i class="fa fa-envelope"></i> <strong> <a href="mailto:reedham1111997@gmail.com">reedham1111997@gmail.com</a> </strong> <br><br>
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+    
+                    </div>
+                </div>
+            </section>
+
+            <!-- Footer top section -->
+           
+        </div>
+    </div>
+
+    <div class="back-to-top"> <i class="fa fa-angle-double-up"></i> </div>
+
+
+    <!-- Scripts -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/fancybox.min.js"></script>
+    <script src="js/main.js"></script>
+
+    <script src="js/fontawesome.all.min.js" async></script>
 </body>
+
 </html>
